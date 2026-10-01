@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: colchones-leos
+    runtime: static
+    buildCommand: "true"
+    staticPublishPath: ./dist
